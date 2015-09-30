@@ -4,6 +4,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "word2vector", "word2vector\word2vector.vcxproj", "{C1EA5655-7ED8-4194-8575-49F121152A60}"
+	ProjectSection(ProjectDependencies) = postProject
+		{E3A4A5FC-C2CD-431A-9D42-C86C48738030} = {E3A4A5FC-C2CD-431A-9D42-C86C48738030}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "datalib", "datalib\datalib.vcxproj", "{E3A4A5FC-C2CD-431A-9D42-C86C48738030}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +20,10 @@ Global
 		{C1EA5655-7ED8-4194-8575-49F121152A60}.Debug|Win32.Build.0 = Debug|Win32
 		{C1EA5655-7ED8-4194-8575-49F121152A60}.Release|Win32.ActiveCfg = Release|Win32
 		{C1EA5655-7ED8-4194-8575-49F121152A60}.Release|Win32.Build.0 = Release|Win32
+		{E3A4A5FC-C2CD-431A-9D42-C86C48738030}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E3A4A5FC-C2CD-431A-9D42-C86C48738030}.Debug|Win32.Build.0 = Debug|Win32
+		{E3A4A5FC-C2CD-431A-9D42-C86C48738030}.Release|Win32.ActiveCfg = Release|Win32
+		{E3A4A5FC-C2CD-431A-9D42-C86C48738030}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
